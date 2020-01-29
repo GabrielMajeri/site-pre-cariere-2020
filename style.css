@@ -51,14 +51,13 @@ p {
 #loading-bar {
   width: 100%;
   border: 1px solid black;
-  background-image: linear-gradient(
-    to right,
-    #1e793c,
-    #1e793c 46%,
-    #e7f2e5 46%,
-    #e7f2e5
-  );
+  background-color: #e7f2e5;
   text-align: center;
+}
+
+#loading-bar span {
+  color: beige;
+  mix-blend-mode: difference;
 }
 
 ul {
